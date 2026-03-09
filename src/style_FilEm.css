@@ -1,0 +1,100 @@
+:root {
+    --color-negro: #0a0c09;
+    --color-blanco: #f8f9fa;
+    --color-gris:#e8e8e8;
+    --color-primario: #99254b;
+    --color-secundario: #bab1a4;
+    --color-terciario: #4e4d4d;
+
+    --tpmenu-: "Inter";
+    --texto-: "Merriweather";
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/type/Inter-VariableFont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/src/type/Merriweather-VariableFont.ttf") format("truetype");
+}
+
+.navbar { 
+    font-family: var(--tpmenu-);
+    border-bottom: var(--color-primario) 3px solid;
+}
+.navbar .dropdown-toggle::after {
+  content: none;
+}
+.nav-link:focus, .nav-link:hover {
+    font-weight: 600;
+}
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.dropdown-menu.show {
+    background-color: var(--color-blanco);
+    border-radius: 0%;
+    border:none;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+}
+.dropdown-divider {
+    margin: 0.5rem 0.5rem;
+    border-top: 1px solid var(--color-primario);
+    font-size: .875em;
+}
+.dropdown-item:hover {
+    font-weight: 600;
+    background-color: var(--bs-dropdown-link-hover-bg);
+}
+.dropdown-menu li a{
+    padding-left: 10px;
+}
+.dropdown-menu li a img:hover{
+    transform: scale(1.1);
+}
+.dropdown-menu li a img{
+    height: 20px;
+    width: auto;
+}
+
+.breadcrumb {
+    font-family: var(--tpmenu-);
+    font-size: .875em;
+} 
+.breadcrumb-container {
+    background-color: var(--color-gris);
+    border-bottom: var(--color-terciario) 3px solid;
+}
+.breadcrumb-item a{
+    color: var(--color-terciario);
+    text-decoration: none;
+}
+.breadcrumb-item a:hover{
+    font-weight: 600;
+}
+.breadcrumb-item.active {
+    font-weight: 600;    
+}
+.logo-footer {
+    height: 50px;
+    width: auto;
+}
+.footer-container {
+    background-color: var(--color-secundario);
+    border-top: var(--color-primario) 6px solid;
+}
+.footer-container img {
+    height: 20px;
+    width: auto;
+}
+
+.bgBlanco {
+    background-color: var(--color-blanco);
+}
+.bgGris {
+    background-color: var(--color-gris);
+}
