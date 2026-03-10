@@ -20,6 +20,25 @@
   src: url("/src/type/Merriweather-VariableFont.ttf") format("truetype");
 }
 
+h5 {
+        font-family: var(--texto-);
+    color: var(--color-negro);
+}
+p {
+    font-family: var(--texto-);
+    color: var(--color-negro);
+    line-height: 2;
+}
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid var(--color-primario);
+  margin: 1em 0;
+  padding: 0;
+  opacity: 1;
+}
+
 .navbar { 
     font-family: var(--tpmenu-);
     border-bottom: var(--color-primario) 3px solid;
@@ -92,8 +111,42 @@
     width: auto;
 }
 
+
+/* Banner */
+#Banner .carousel-inner .carousel-item .izquierdo{
+    max-height: 250px;
+    overflow-y: hidden;
+}
+#Banner .carousel-inner .carousel-item .derecho{
+    max-height: 250px;
+    min-height: 250px;
+}
+#Banner p {
+    color: var(--color-blanco);
+    font-family: var(--texto-);
+    line-height: 1.5;
+}
+
+/* Contenedor Main */
+.row.contenido {
+    margin: 0px 200px;
+}
+
+
+/* colaboradorCard */
+.card-body img {
+    width: 30px;
+    height: auto;
+}
+.card .row .col-md-4 img {
+    border:solid 3px var(--color-primario);
+}
+
 .bgBlanco {
     background-color: var(--color-blanco);
+}
+.bgBlack {
+ background-color: var(--color-negro);   
 }
 .bgGris {
     background-color: var(--color-gris);
