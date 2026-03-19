@@ -145,7 +145,13 @@ section {
 }
  }
 
-
+      .titulo_limitado {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* ajusta según altura */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 /* Banner */
 #Banner .carousel-inner .carousel-item .izquierdo{
     max-height: 250px;
