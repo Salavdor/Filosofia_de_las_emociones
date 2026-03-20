@@ -107,10 +107,10 @@ get_header();
             <div class="conferencias">
               <div class="card mb-3">
                 <div class="row g-0">
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/conferencias/CarlosPeredaIndagaciones.jpg" class="img-fluid rounded-start" alt="...">
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <div class="card-body">
                       <h5 class="card-title">Reseña</h5>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -119,6 +119,10 @@ get_header();
                   </div>
                 </div>
               </div>
+                            <div class="row py-3 d-flex justify-content-center"><button class="slick-prev custom-arrow slick-arrow"
+                  style="display: block;"><img src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_retroceder.svg"></button><button
+                  class="slick-next custom-arrow slick-arrow" style="display: block;"><img
+                    src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_avanzar.svg"></button></div>
             </div>
           </div>
         </section>
@@ -136,7 +140,7 @@ get_header();
             <div class="card-body">
               <h5 class="card-title">Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">3 de Febrero del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Primera sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”<br>
 Bienvenida y presentación del temario y de los integrantes del proyecto
               </p>
@@ -147,7 +151,7 @@ Bienvenida y presentación del temario y de los integrantes del proyecto
             <div class="card-body">
               <h5 class="card-title">Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">10 de Febrero del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Primera sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”
               </p>
             </div>
@@ -157,7 +161,7 @@ Primera sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confi
             <div class="card-body">
               <h5 class="card-title">Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">17 de Febrero del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Segunda sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”<br>
 Módulo 1 Confianza y Filosofía Moral
               </p>
@@ -168,7 +172,7 @@ Módulo 1 Confianza y Filosofía Moral
             <div class="card-body">
               <h5 class="card-title">Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">24 de Febrero del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Quinta sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”<br>
 Módulo 2. Confianza, feminismos y afectos en el capitalismo tardío
               </p>
@@ -179,7 +183,7 @@ Módulo 2. Confianza, feminismos y afectos en el capitalismo tardío
             <div class="card-body">
               <h5 class="card-title">Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">3 de marzo del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Cuarta sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”<br>
 Módulo 2. Confianza, feminismos y afectos en el capitalismo tardío
               </p>
@@ -190,7 +194,7 @@ Módulo 2. Confianza, feminismos y afectos en el capitalismo tardío
             <div class="card-body">
               <h5 class="card-title">Cátedra Cátedra Interuniversitaria “Indagaciones sobre la confianza”</h5>
               <p class="card-text"><small class="text-body-secondary">10 de marzo del 2026</small></p>
-              <p class="card-text">Descripción:<br><br>
+              <p class="card-text descripcion">
 Quinta sesión de la Cátedra Interuniversitaria “Indagaciones sobre la confianza”<br>
 Módulo 3. Fenomenología de la Confianza
 

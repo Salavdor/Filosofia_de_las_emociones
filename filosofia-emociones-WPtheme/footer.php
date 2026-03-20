@@ -1,10 +1,15 @@
+<!-- back to top -->
+<button id="btnTop">
+  <img src="<?php echo get_template_directory_uri(); ?>/src/img/back_to_top.svg">
+</button>
+<!-- footer -->
 <footer>
 
 <section class="bgGris">
   <div class="container py-3">
     <div class="col-12 d-flex justify-content-end">
       <a href="<?php echo home_url(); ?>" class="text-decoration-none">
-        <img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/src/img/logo_footer.png">
+        <img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/src/img/logo_header.png">
       </a>
     </div>
   </div>
@@ -30,7 +35,7 @@
             </li>
           </ul>
           <div class="col-md-4 d-flex justify-content-end">
-                <a class="nav-link" href="#">Contacto</a>
+                
           </div>
         </div>
       </section>

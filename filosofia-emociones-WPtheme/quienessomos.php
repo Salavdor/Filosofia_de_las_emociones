@@ -3,16 +3,17 @@
 get_header();
 ?>
 
-   <!-- Contenido -->
+
+     <!-- Contenido -->
     <section>
         <div class="container py-5">
             <div class="row">
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Esteban.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Esteban Marín Ávila</h5>
                                 <p>
@@ -25,12 +26,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/serrano.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Francisco J. Serrano Franco</h5>
                                 <p>
@@ -43,12 +44,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/JessicaVargasGonzalez.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Jessica Vargas González</h5>
                                 <p>
@@ -61,12 +62,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Mayte.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">María Teresa Muñoz Sánchez (Mayte)</h5>
                                 <p>
@@ -79,12 +80,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Myrna.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Myrna Ojeda Álvarez</h5>
                                 <p>
@@ -97,12 +98,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/RocíoCazares.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Rocío Cázares-Blanco</h5>
                                 <p>
@@ -115,12 +116,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="card colaborador border-0 mb-5 col-6 col-lg-6">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
-                        <div class="col-md-3 col-lg-2 px-5 px-md-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/SusanaRamirezVizcaya.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
-                        <div class="col-md-9 col-lg-10 d-flex align-items-end">
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Susana Ramírez-Vizcaya</h5>
                                 <p>
@@ -141,7 +142,7 @@ get_header();
         <!-- Modales -->
         <div class="modal fade" id="ModalColaborador1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -237,7 +238,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -277,7 +278,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -352,7 +353,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -388,7 +389,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -468,7 +469,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -508,7 +509,7 @@ get_header();
         </div>
         <div class="modal fade" id="ModalColaborador7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  modal-xl">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
             <div class="modal-content bgBlanco rounded-0 semblanza">
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -610,7 +611,8 @@ get_header();
                     <p>
                       Ramírez-Vizcaya, S. (2019). Beyond neurocentric psychiatry: An analysis of Fuchs'
                       enactive-ecological concept of the mind. The Journal of Mind and Behavior 40(2): 147-158.
-                      https://www.jstor.org/stable/26778376
+                      <a href="https://www.jstor.org/stable/26778376"
+                        target="_blank">www.jstor.org/stable/26778376</a>
                     </p>
                   </li>
                   <li>
@@ -634,5 +636,6 @@ get_header();
         </div>
   
     </section>
+
 
 <?php get_footer(); ?>

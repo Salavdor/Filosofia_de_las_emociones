@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo('charset'); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/src/img/favicon.png" type="image/x-icon">
   <title><?php bloginfo('name'); ?></title>
 
   <?php wp_head(); ?>
@@ -37,8 +37,13 @@
           <li class="nav-item">
             <a class="nav-link me-3" href="<?php echo home_url('/contacto'); ?>">Contacto</a>
           </li>
+          <li class="d-flex justify-content-start p-0 d-lg-none d-mb-block redes-menu">
+                <a class="" href="https://www.facebook.com/profile.php?id=61588512137103" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/FB.svg"></a>
+                <a class="" href="https://www.youtube.com/channel/UCD1Sn1IfLL-Y46AS5F3nUaA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/YT.svg"></a>
+                <a class="" href="https://www.instagram.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ms-3 d-md-none d-lg-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle ms-3 d-none d-lg-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                <span class="navbar-toggler-icon"></span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg-end">
@@ -75,7 +80,7 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li class="d-flex justify-content-end p-2">
+              <li class="d-flex justify-content-start p-2">
                 <a class="" href="https://www.facebook.com/profile.php?id=61588512137103" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/FB.svg"></a>
                 <a class="" href="https://www.youtube.com/channel/UCD1Sn1IfLL-Y46AS5F3nUaA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/YT.svg"></a>
                 <a class="" href="https://www.instagram.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
@@ -91,8 +96,16 @@
   <div class="container py-3">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb m-0">
-        <li class="breadcrumb-item"><a href="<?php echo home_url(); ?>">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page"> <?php the_title(); ?></li>
+        <li class="breadcrumb-item">
+          <a href="<?php echo home_url(); ?>">Inicio</a>
+        </li>
+
+        <?php if ( !is_front_page() ) : ?>
+          <li class="breadcrumb-item active" aria-current="page">
+            <?php the_title(); ?>
+          </li>
+        <?php endif; ?>
+
       </ol>
     </nav>
   </div>

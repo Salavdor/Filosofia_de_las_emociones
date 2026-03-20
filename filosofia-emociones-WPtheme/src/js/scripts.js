@@ -172,6 +172,26 @@ $(document).ready(function () {
 
     });
 
+
+     const btn = $('#btnTop');
+
+    // mostrar/ocultar botón según scroll
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 1000) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    // acción al hacer click
+    btn.on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 400);
+    });
+
 });
+
 
 })(jQuery);

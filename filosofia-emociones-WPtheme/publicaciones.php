@@ -13,72 +13,12 @@ get_header();
                 <hr class="stroke">
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pb-5 publicaciones">
-    
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body d-flex align-content-between flex-wrap">
-                            <div class="row mb-3">
-                            <h5 class="card-title">El impacto del duelo anticipado en las actitudes reactivas de sanción</h5>
-                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
-                            </div>
-                            <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2022_Duelo anticipado y actitudes reactivas Rocio Cazares Blanco.pdf" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
-                                </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2022_Duelo anticipado y actitudes reactivas Rocio Cazares Blanco.pdf" download>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body d-flex align-content-between flex-wrap">
-                            <div class="row mb-3">
-                            <h5 class="card-title">El valor de la manipulación en las relaciones de confianza</h5>
-                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
-                            </div>
-                            <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2025_Manipulacion y confianza Rocio Cazares Blanco.pdf" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
-                                </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2025_Manipulacion y confianza Rocio Cazares Blanco.pdf" download>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body d-flex align-content-between flex-wrap">
                             <div class="row mb-3">
-                            <h5 class="card-title">Perdón y reciprocidad. Una alternativa
-al dilema gratuidad-condicionalidad
-del perdón</h5>
-                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
-                            </div>
-                            <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2020_Perdon y reciprocidad Rocio Cazares Blanco.pdf" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
-                                </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2020_Perdon y reciprocidad Rocio Cazares Blanco.pdf" download>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body d-flex align-content-between flex-wrap">
-                            <div class="row mb-3">
-                            <h5 class="card-title">Skills without affectivity? Integrating affective
-experiences into the philosophy of skills</h5>
+                            <h5 class="card-title">Skills without affectivity? Integrating affective experiences into the philosophy of skills</h5>
                             <p class="card-text"><small class="text-body-secondary">Susana Ramírez Vizcaya</small></p>
                             </div>
                             <div class="row d-inline">
@@ -97,28 +37,7 @@ experiences into the philosophy of skills</h5>
                     <div class="card h-100">
                         <div class="card-body d-flex align-content-between flex-wrap">
                             <div class="row mb-3">
-                            <h5 class="card-title">Loneliness as a Closure of the Affordance Space: The Case of COVID-19
-Pandemic</h5>
-                            <p class="card-text"><small class="text-body-secondary">Susana Ramírez Vizcaya</small></p>
-                            </div>
-                            <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/20 mayo_2023_Loneliness as a Closure of the Affordance Space_ The Case of COVID-19 Pandemic_ Susana Ramirez Vizcaya .pdf" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
-                                </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/20 mayo_2023_Loneliness as a Closure of the Affordance Space_ The Case of COVID-19 Pandemic_ Susana Ramirez Vizcaya .pdf" download>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body d-flex align-content-between flex-wrap">
-                            <div class="row mb-3">
-                            <h5 class="card-title">La dimensión emotiva de la racionalidad práctica. Aproximaciones
-fenomenológicas a la ira, la esperanza y la confianza</h5>
+                            <h5 class="card-title">La dimensión emotiva de la racionalidad práctica. Aproximaciones fenomenológicas a la ira, la esperanza y la confianza</h5>
                             <p class="card-text"><small class="text-body-secondary">Esteban Marín Ávila</small></p>
                             </div>
                             <div class="row d-inline">
@@ -137,10 +56,7 @@ fenomenológicas a la ira, la esperanza y la confianza</h5>
                     <div class="card h-100">
                         <div class="card-body d-flex align-content-between flex-wrap">
                             <div class="row mb-3">
-                            <h5 class="card-title">Habla y confianza
-Reflexiones en torno a la construcción de la
-confianza en conversaciones sobre
-experiencias de violencia</h5>
+                            <h5 class="card-title">Habla y confianza Reflexiones en torno a la construcción de la confianza en conversaciones sobre experiencias de violencia</h5>
                             <p class="card-text"><small class="text-body-secondary">Myrna Ojeda Álvarez</small></p>
                             </div>
                             <div class="row d-inline">
@@ -159,33 +75,14 @@ experiencias de violencia</h5>
                     <div class="card h-100">
                         <div class="card-body d-flex align-content-between flex-wrap">
                             <div class="row mb-3">
-                            <h5 class="card-title">Duelo por la muerte de un animal no humano</h5>
+                            <h5 class="card-title">El valor de la manipulación en las relaciones de confianza</h5>
                             <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
                             </div>
                             <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/30 mayo_2023_Duelo por un animal no humano Rocio Cazares Blanco.pdf" target="_blank">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2025_Manipulacion y confianza Rocio Cazares Blanco.pdf" target="_blank">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
                                 </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/30 mayo_2023_Duelo por un animal no humano Rocio Cazares Blanco.pdf" download>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body d-flex align-content-between flex-wrap">
-                            <div class="row mb-3">
-                            <h5 class="card-title">Confianza reflexiva. La reflexión sobre la confianza ante conocimientos y acciones sociales</h5>
-                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
-                            </div>
-                            <div class="row d-inline">
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2023_Confianza reflexiva La reflexion sobre la confianza ante conocimientos y acciones sociales Esteban Marin Avila.pdf" target="_blank">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
-                                </a>
-                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2023_Confianza reflexiva La reflexion sobre la confianza ante conocimientos y acciones sociales Esteban Marin Avila.pdf" download>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2025_Manipulacion y confianza Rocio Cazares Blanco.pdf" download>
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
                                 </a>
                             </div>
@@ -216,6 +113,63 @@ experiencias de violencia</h5>
                     <div class="card h-100">
                         <div class="card-body d-flex align-content-between flex-wrap">
                             <div class="row mb-3">
+                            <h5 class="card-title">Duelo por la muerte de un animal no humano</h5>
+                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
+                            </div>
+                            <div class="row d-inline">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/30 mayo_2023_Duelo por un animal no humano Rocio Cazares Blanco.pdf" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
+                                </a>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/30 mayo_2023_Duelo por un animal no humano Rocio Cazares Blanco.pdf" download>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-content-between flex-wrap">
+                            <div class="row mb-3">
+                            <h5 class="card-title">Loneliness as a Closure of the Affordance Space: The Case of COVID-19 Pandemic</h5>
+                            <p class="card-text"><small class="text-body-secondary">Susana Ramírez Vizcaya</small></p>
+                            </div>
+                            <div class="row d-inline">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/20 mayo_2023_Loneliness as a Closure of the Affordance Space_ The Case of COVID-19 Pandemic_ Susana Ramirez Vizcaya .pdf" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
+                                </a>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/20 mayo_2023_Loneliness as a Closure of the Affordance Space_ The Case of COVID-19 Pandemic_ Susana Ramirez Vizcaya .pdf" download>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-content-between flex-wrap">
+                            <div class="row mb-3">
+                            <h5 class="card-title">Confianza reflexiva. La reflexión sobre la confianza ante conocimientos y acciones sociales</h5>
+                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
+                            </div>
+                            <div class="row d-inline">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2023_Confianza reflexiva La reflexion sobre la confianza ante conocimientos y acciones sociales Esteban Marin Avila.pdf" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
+                                </a>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2023_Confianza reflexiva La reflexion sobre la confianza ante conocimientos y acciones sociales Esteban Marin Avila.pdf" download>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-content-between flex-wrap">
+                            <div class="row mb-3">
                             <h5 class="card-title">Lamentación del agente y su reconocimiento en el duelo1</h5>
                             <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
                             </div>
@@ -231,7 +185,49 @@ experiencias de violencia</h5>
                     </div>
                 </div>
     
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-content-between flex-wrap">
+                            <div class="row mb-3">
+                            <h5 class="card-title">El impacto del duelo anticipado en las actitudes reactivas de sanción</h5>
+                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
+                            </div>
+                            <div class="row d-inline">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2022_Duelo anticipado y actitudes reactivas Rocio Cazares Blanco.pdf" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
+                                </a>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2022_Duelo anticipado y actitudes reactivas Rocio Cazares Blanco.pdf" download>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-content-between flex-wrap">
+                            <div class="row mb-3">
+                            <h5 class="card-title">Perdón y reciprocidad. Una alternativa al dilema gratuidad-condicionalidad del perdón</h5>
+                            <p class="card-text"><small class="text-body-secondary">Rocío Cázares Blanco</small></p>
+                            </div>
+                            <div class="row d-inline">
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2020_Perdon y reciprocidad Rocio Cazares Blanco.pdf" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/previsualizar.svg">
+                                </a>
+                                <a class="p-0 ps-2" href="<?php echo get_template_directory_uri(); ?>/src/pdf/articulos/2020_Perdon y reciprocidad Rocio Cazares Blanco.pdf" download>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/descarga.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
+            <div class="row py-3 d-flex justify-content-center"><button class="slick-prev custom-arrow slick-arrow"
+                  style="display: block;"><img src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_retroceder.svg"></button><button
+                  class="slick-next custom-arrow slick-arrow" style="display: block;"><img
+                    src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_avanzar.svg"></button></div>
         </div>
     </section>
             <section id="libros" class="bgCafe">
@@ -266,6 +262,10 @@ exige que reflexionemos y busquemos comprensión sobre cómo amamos, por qué te
                 </div>
               </div>
             </div>
+            <div class="row py-3 d-flex justify-content-center"><button class="slick-prev custom-arrow slick-arrow"
+                  style="display: block;"><img src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_retroceder.svg"></button><button
+                  class="slick-next custom-arrow slick-arrow" style="display: block;"><img
+                    src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_avanzar.svg"></button></div>
           </div>
         </section>
         <section id="capitulos">
@@ -298,6 +298,10 @@ exige que reflexionemos y busquemos comprensión sobre cómo amamos, por qué te
                 </div>
     
             </div>
+            <div class="row py-3 d-flex justify-content-center"><button class="slick-prev custom-arrow slick-arrow"
+                  style="display: block;"><img src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_retroceder.svg"></button><button
+                  class="slick-next custom-arrow slick-arrow" style="display: block;"><img
+                    src="<?php echo get_template_directory_uri(); ?>/src/img/scroll_carrusel_avanzar.svg"></button></div>
         </div>
     </section>
 
