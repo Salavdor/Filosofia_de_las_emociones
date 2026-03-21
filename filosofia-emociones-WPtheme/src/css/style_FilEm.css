@@ -191,7 +191,7 @@ section {
 .card-body p {
     line-height: 2;
 }
-.card .row .col-md-3 img {
+.card .row .col-3 img {
     border:solid 3px var(--color-primario);
 }
 
