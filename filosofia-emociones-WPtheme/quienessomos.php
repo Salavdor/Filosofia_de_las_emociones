@@ -4,10 +4,34 @@ get_header();
 ?>
 
 
-     <!-- Contenido -->
+  <!-- Contenido -->
     <section>
         <div class="container py-5">
+            <div class="row py-5">
+              <h4>
+                Fundadores
+              </h4>
+              <hr class="stroke">
+            </div>
             <div class="row">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/RocíoCazares.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Rocío Cázares-Blanco</h5>
+                                <!-- <p>
+                                  Profesora-investigadora en la Unidad Académica de Filosofía de la Universidad Autónoma de México
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador6">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
                         <div class="col-3 col-lg-2 px-0 px-md-0">
@@ -16,46 +40,10 @@ get_header();
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Esteban Marín Ávila</h5>
-                                <p>
+                                <!-- <p>
                                   Doctor en filosofía por la Universidad Nacional Autónoma de México (UNAM)
-                                </p>
+                                </p> -->
                                 <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador1">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-3 col-lg-2 px-0 px-md-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/serrano.jpg" class="img-fluid rounded-circle" alt="...">
-                        </div>
-                        <div class="col-9 col-lg-10 d-flex align-items-end">
-                            <div class="card-body">
-                                <h5 class="card-title">Francisco J. Serrano Franco</h5>
-                                <p>
-                                  Profesor-investigador en la Unidad Académica de Filosofía de la Universidad Autónoma de Zacatecas
-                                </p>
-                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador2">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-3 col-lg-2 px-0 px-md-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/JessicaVargasGonzalez.jpg" class="img-fluid rounded-circle" alt="...">
-                        </div>
-                        <div class="col-9 col-lg-10 d-flex align-items-end">
-                            <div class="card-body">
-                                <h5 class="card-title">Jessica Vargas González</h5>
-                                <p>
-                                  Doctora en Filosofía por la Universidad de Binghamton
-                                </p>
-                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador3">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
                                 </a>
                             </div>
@@ -70,9 +58,9 @@ get_header();
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">María Teresa Muñoz Sánchez (Mayte)</h5>
-                                <p>
+                                <!-- <p>
                                   Profesora asociada C de tiempo completo de la Facultad de Filosofía y Letras, UNAM
-                                </p>
+                                </p> -->
                                 <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador4">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
                                 </a>
@@ -88,9 +76,9 @@ get_header();
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Myrna Ojeda Álvarez</h5>
-                                <p>
+                                <!-- <p>
                                   Licenciada en Letras Hispánicas, maestra en Ciencias del Lenguaje y doctora en Ciencias
-                                </p>
+                                </p> -->
                                 <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador5">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
                                 </a>
@@ -101,15 +89,15 @@ get_header();
                 <div class="card colaborador border-0 mb-5 col-12 col-md-6">
                     <div class="row g-0">
                         <div class="col-3 col-lg-2 px-0 px-md-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/RocíoCazares.jpg" class="img-fluid rounded-circle" alt="...">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Ignacio.jpg" class="img-fluid rounded-circle" alt="...">
                         </div>
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
-                                <h5 class="card-title">Rocío Cázares-Blanco</h5>
-                                <p>
-                                  Profesora-investigadora en la Unidad Académica de Filosofía de la Universidad Autónoma de México
-                                </p>
-                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador6">
+                                <h5 class="card-title">Ignacio Quepons Ramírez</h5>
+                                <!-- <p>
+                                  Doctor en filosofía por la Universidad Nacional Autónoma de México (UNAM)
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador8">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
                                 </a>
                             </div>
@@ -124,10 +112,128 @@ get_header();
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
                                 <h5 class="card-title">Susana Ramírez-Vizcaya</h5>
-                                <p>
+                                <!-- <p>
                                   Doctora en Filosofía de las Ciencias Cognitivas por la UNAM
-                                </p>
+                                </p> -->
                                 <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador7">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/serrano.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Francisco J. Serrano Franco</h5>
+                                <!-- <p>
+                                  Profesor-investigador en la Unidad Académica de Filosofía de la Universidad Autónoma de Zacatecas
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador2">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/JessicaVargasGonzalez.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Jessica Vargas González</h5>
+                                <!-- <p>
+                                  Doctora en Filosofía por la Universidad de Binghamton
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row py-5">
+              <h4>
+                Asistentes
+              </h4>
+              <hr class="stroke">
+            </div>
+            <div class="row">
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Brenda.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Brenda Rangel Bautista</h5>
+                                <!-- <p>
+                                  Profesora-investigadora en la Unidad Académica de Filosofía de la Universidad Autónoma de México
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador9">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Lucero.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Lucero Rodríguez Alaide</h5>
+                                <!-- <p>
+                                  Doctor en filosofía por la Universidad Nacional Autónoma de México (UNAM)
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador10">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Andrea.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">Andrea Velázquez Vera</h5>
+                                <!-- <p>
+                                  Profesora asociada C de tiempo completo de la Facultad de Filosofía y Letras, UNAM
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador11">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card colaborador border-0 mb-5 col-12 col-md-6">
+                    <div class="row g-0">
+                        <div class="col-3 col-lg-2 px-0 px-md-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/img/colaboradores/Fernanda.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-9 col-lg-10 d-flex align-items-end">
+                            <div class="card-body">
+                                <h5 class="card-title">María Fernanda Vega</h5>
+                                <!-- <p>
+                                  Licenciada en Letras Hispánicas, maestra en Ciencias del Lenguaje y doctora en Ciencias
+                                </p> -->
+                                <a class="" href="/" data-bs-toggle="modal" data-bs-target="#ModalColaborador12">
                                     <img src="<?php echo get_template_directory_uri(); ?>/src/img/ver_mas_modal.svg">
                                 </a>
                             </div>
@@ -630,6 +736,153 @@ get_header();
                     </p>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ModalColaborador8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content bgBlanco rounded-0 semblanza">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Semblanza</h5>
+                <p>
+                  Ignacio Quepons Ramírez es doctor en filosofía por la Universidad Nacional Autónoma de México (UNAM) y se desempeña como Investigador titular C de tiempo completo y desde 2021 como director en el Instituto de Filosofía de la Universidad Veracruzana. Realizó estudios de doctorado en la Universidad de Colonia, Alemania, con apoyo del DAAD, y posteriormente fue investigador postdoctoral y docente de asignatura (2014-2016) en el departamento de Filosofía de la Universidad de Seattle, en EE.UU., con apoyo del entonces Consejo Nacional de Ciencia y Tecnología. Desde 2004 ha sido docente en diferentes universidades del país y ha sido también académico invitado en la Universidad Carolina de Praga, en la República Checa. Es miembro ordinario del <i>Círculo Latinoamericano de Fenomenología y del Husserl Circle</i>. Su investigación se centra en la sistematización de la teoría de las emociones y la ética en la tradición fenomenológica con énfasis en la obra de Edmund Husserl, y más recientemente en una variedad de estudios sobre una aproximación filosófica al tema de la vulnerabilidad. También se interesa por la historia de la filosofía alemana clásica en diálogo con la fenomenología, la ética y la filosofía en América Latina.
+                </p>
+                <h5>Libros</h5>
+                <ul>
+                  <li>
+                    <p>
+                      (2025) La razón para rebelarnos, imaginación, crítica y subjetividad en la filosofía de Jean Paul Sartre, Buenos Aires, SB / BUAP.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      (2026) De la vulnerabilidad a la justicia, una investigación fenomenológica, Buenos Aires: SB, (en prensa).
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      (2005) Jean Paul Sartre, la invención imaginaria de sí, Morelia: Jitanjáfora.
+                    </p>
+                  </li>
+                </ul>
+                <h5>Artículos (selección)</h5>
+                <ul>
+                  <li>
+                    <p>
+                      <i>Feeling Vulnerable: Phenomenological Dimensions of Affectivity</i>, in Anthony Steinbock, Phenomenology and Perspectives on the Heart, pp.105-125, Springer International Publishing. 2022.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      (con Expósito Ropero, N.)<i>Historia, teleología y corporalidad. La contribución de Ludwig Landgrebe a la crítica fenomenológica del materialismo histórico</i>, Disputatio. philosophical research bulletin, 11(21), 63-83. 2022. <a href="https://doi.org/10.5281/zenodo.7855712" target="_blank">doi.org/10.5281/zenodo.7855712</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Horizons of Self-Reflection: Remarks on Ludwig Landgrebe’s Critique of Husserl’s Theory of Phenomenological Reflection</i>, en Edmund Husserl's Cartesian Meditations, Verlag Karl Alber, pp.237-258. 2023. <a href="https://www.verlag-koenigshausen-neumann.de/product_info.php/info/p9104_Ph--nomenologie-und---kologie---Orbis-Phaenomenologicus-Perspektiven-Neue-Folge--Bd--31-.html" target="_blank">www.verlag-koenigshausen-neumann.de</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Daño, miedo, traición: aspectos de la génesis corporal y significación moral del sentido de vulnerabilidad</i>. En-claves del pensamiento, 17(33), e609. Epub 12 de mayo de 2023. <a href="https://doi.org/10.46530/ecdp.v0i33.609" target="_blank">doi.org/10.46530/ecdp.v0i33.609</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      (con Expósito Ropero, N.) <i>José Ortega y Gasset, (1883-1955)</i> In: de Warren, N., Toadvine, T. (eds) Encyclopedia of Phenomenology. Springer, Cham. 2024. <a href="https://link.springer.com/referenceworkentry/10.1007/978-3-030-47253-5_60-1" target="_blank">link.springer.com</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Valor y generatividad: una contribución al estudio de la estructura de la conciencia del valor y las fuentes de la normatividad en la fenomenología de Husserl</i>. Investigaciones Fenomenológicas, (9), 167–185. 2024.  <a href="https://doi.org/10.5944/rif.9.2024.41544" target="_blank">doi.org/10.5944/rif.9.2024.41544</a>  
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Villoro, Luis (1922–2014)</i>. In: de Warren, N., Toadvine, T. (eds) Encyclopedia of Phenomenology. Springer, Cham. 2025. <a href="https://doi.org/10.1007/978-3-030-47253-5_440-1" target="_blank">doi.org/10.1007/978-3-030-47253-5_440-1</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Compasión, confianza y vulnerabilidad: de la fenomenología de la empatía a la individuación de la persona</i>. Steiniana, Revista de Estudios Interdisciplinarios, Pontificia Universidad Autónoma   Chile. Volumen VIII, número 8, pp. 26-39. 2024. <a href="https://orcid.org/0000-0002-1589-3951" target="_blank">orcid.org/0000-0002-1589-3951</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i>Vivir o contar: la trascendencia del yo y lo imaginario en la filosofía fenomenológica de Jean Paul Sartre</i>. ApareSER, Revista de Filosofía Año 1, Número 2, pp. 45-61, marzo - agosto de 2024. <a href="http://apareser.buap.mx" target="_blank">apareser.buap.mx</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="ModalColaborador9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content bgBlanco rounded-0 semblanza">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Semblanza</h5>
+                <p>
+                  Brenda Rangel Bautista es Licenciada en filosofía por la Facultad de Estudios Superiores Acatlán, donde fue distinguida con la Medalla Gabino Barreda. Actualmente se desempeña como docente en el Agustiniano Instituto Filosófico-Teológico, en el área de filosofía, y cursa la Maestría en Pensamiento Crítico y Hermenéutica impartida por la Universidad Autónoma de Zacatecas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ModalColaborador10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content bgBlanco rounded-0 semblanza">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Semblanza</h5>
+                <p>
+                  Alaide Lucero Rodríguez es Licenciada y Maestra en filosofía por la UNAM y ha trabajado como profesora de asignatura en la Facultad de Ciencias Políticas y Sociales de la misma universidad. Actualmente se encuentra realizando su investigación doctoral en el Programa de Posgrado en Filosofía de la UNAM, en torno a figuraciones no dualistas de la corporalidad en diferentes autoras feministas contemporáneas con la tesis “Al menos dos (labios). Por una lógica feminista de la contigüidad. Ha participado con capítulos en compilaciones como <i>Heresiologías. Operaciones teológico-políticas sobre la discidencia en la historia (2024)</i> y <i>La emergencia de lo común. Posmarxismos y nuevos feminismos (2025)</i>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ModalColaborador11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content bgBlanco rounded-0 semblanza">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Semblanza</h5>
+                <p>
+                  Licenciada en Filosofía por la Universidad Autónoma de Zacatecas, donde actualmente cursa la Maestría en Pensamiento Crítico y Hermenéutica. Ha participado en diplomados sobre filosofía y literatura escrita por mujeres, así como en un verano de investigación en la Universidad Michoacana de San Nicolás de Hidalgo. Asimismo, ha coordinado talleres de filosofía feminista en la UAZ y en la Biblioteca Pública José Revueltas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ModalColaborador12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content bgBlanco rounded-0 semblanza">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Semblanza</h5>
+                <p>
+                  Licenciada en Filosofía por la Universidad Nacional Autónoma de México, es especialista en estudios de género por el Posgrado en Estudios de Género en la UNAM. Actualmente cursa la maestría en filosofía política en la UNAM. Fue becaria en el CEIICH (centro de investigaciones interdisciplinarias en ciencias y humanidades) UNAM. Participa en el proyecto de investigación PAPIIT violencias, dignidad y personas, puntos de fuga de la tradición kantiana. Es asistente de investigación en el proyecto Indagaciones sobre la confianza -perspectivas filosóficas, críticas y prácticas- Sus investigaciones se han enfocado en el deseo, los cuerpos y las subjetividades disidentes desde el feminismo  y los estudios de género.
+                </p>
               </div>
             </div>
           </div>

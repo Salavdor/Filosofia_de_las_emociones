@@ -15,6 +15,16 @@ get_header();
               <div class="seminarios">
                 <div class="card">
                     <a class="col-12">
+                      <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/La_confianza_cartel.jpg" class="img-fluid" alt="...">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="col-12">
+                      <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/La_confianza_programa.jpg" class="img-fluid" alt="...">
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="col-12">
                       <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/AlaideAffidamento.jpg" class="img-fluid" alt="...">
                     </a>
                 </div>
