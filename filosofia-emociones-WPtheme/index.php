@@ -22,8 +22,8 @@ get_header();
            </div>
            <div class="carousel-item">
              <div class="row">
-               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner3.jpg">
-               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner3r.jpg">
+               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner5.jpg">
+               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner5r.jpg">
              </div>
            </div>
            <div class="carousel-item">

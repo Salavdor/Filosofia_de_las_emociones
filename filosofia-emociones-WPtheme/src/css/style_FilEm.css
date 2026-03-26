@@ -186,7 +186,7 @@ section {
 /* colaboradorCard */
 .card-body img {
     width: 30px;
-    height: auto;
+    height: auto !important;
 }
 .card-body p {
     line-height: 2;
@@ -223,6 +223,21 @@ section {
 .slick-prev:before, .slick-next:before {
 font-size: 0px;
 }
+
+.slick-track {
+    display: flex !important;
+    align-items: stretch;
+}
+
+.slick-slide {
+    height: auto;
+    display: flex !important;
+}
+
+/* .slick-slide > div {
+    display: flex;
+    flex: 1;
+} */
 
 /* Seminarios */
 .seminarios.slick-slider .slick-list{
@@ -294,15 +309,16 @@ iframe {
     color: transparent;
 }
 
-.catedras .card-text.descripcion {
+/* .catedras .card-text.descripcion {
     max-height: 96px;
     min-height: 96px;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* ajusta según altura */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+} */
+
 
 /* libros */
 

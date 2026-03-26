@@ -8,8 +8,7 @@
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 4000,
-        variableWidth: false,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         arrows: true,
         appendArrows: $('.seminarios-arrows'),
         prevArrow: '<button class="slick-prev custom-arrow"><img src="' + themeData.themeUrl + '/src/img/scroll_carrusel_retroceder.svg"></button>',
@@ -24,7 +23,7 @@
             }, {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             },
@@ -48,12 +47,11 @@
         dots: false,
         infinite: true,
         speed: 600,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 4000,
-        variableWidth: false,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         arrows: true,
         appendArrows: $('.conversatorios-arrows'),
         prevArrow: '<button class="slick-prev custom-arrow"><img src="' + themeData.themeUrl + '/src/img/scroll_carrusel_retroceder.svg"></button>',
@@ -75,14 +73,14 @@
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             }
@@ -131,6 +129,20 @@
                 }
             }
         ]
+    });
+        $('.libros').slick({
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        adaptiveHeight: false,
+        arrows: true,
+        appendArrows: $('.libros-arrows'),
+        prevArrow: '<button class="slick-prev custom-arrow"><img src="' + themeData.themeUrl + '/src/img/scroll_carrusel_retroceder.svg"></button>',
+        nextArrow: '<button class="slick-next custom-arrow"><img src="' + themeData.themeUrl + '/src/img/scroll_carrusel_avanzar.svg"></button>',
     });
 
 

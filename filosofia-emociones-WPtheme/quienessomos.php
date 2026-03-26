@@ -6,7 +6,7 @@ get_header();
 
   <!-- Contenido -->
     <section>
-        <div class="container py-5">
+        <div class="container py-0">
             <div class="row py-5">
               <h4>
                 Fundadores
@@ -160,7 +160,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="container py-5">
+        <div class="container py-0">
             <div class="row py-5">
               <h4>
                 Asistentes

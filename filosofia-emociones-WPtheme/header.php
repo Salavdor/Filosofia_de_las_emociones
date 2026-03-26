@@ -40,7 +40,7 @@
           <li class="d-flex justify-content-start p-0 d-lg-none d-mb-block redes-menu">
                 <a class="" href="https://www.facebook.com/profile.php?id=61588512137103" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/FB.svg"></a>
                 <a class="" href="https://www.youtube.com/channel/UCD1Sn1IfLL-Y46AS5F3nUaA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/YT.svg"></a>
-                <a class="" href="https://www.instagram.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
+                <a class="" href="https://www.instagram.com/redfilosofiasemociones" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle ms-3 d-none d-lg-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +83,7 @@
               <li class="d-flex justify-content-start p-2">
                 <a class="" href="https://www.facebook.com/profile.php?id=61588512137103" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/FB.svg"></a>
                 <a class="" href="https://www.youtube.com/channel/UCD1Sn1IfLL-Y46AS5F3nUaA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/YT.svg"></a>
-                <a class="" href="https://www.instagram.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
+                <a class="" href="https://www.instagram.com/redfilosofiasemociones" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg"></a>
               </li>
             </ul>
           </li>

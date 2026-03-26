@@ -29,7 +29,7 @@
               </a>
             </li>
             <li class="me-3">
-              <a class="text-body-secondary" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+              <a class="text-body-secondary" href="https://www.instagram.com/redfilosofiasemociones" target="_blank" aria-label="Instagram">
                 <img src="<?php echo get_template_directory_uri(); ?>/src/img/IG.svg">
               </a>
             </li>
