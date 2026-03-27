@@ -13,39 +13,54 @@ get_header();
                 <hr class="stroke">
             </div>
             <div class="row contenido pb-5 contacto">
-       <?php
-            if (isset($_POST['enviar'])) {
+        <?php
+        if (isset($_POST['enviar'])) {
 
-                // 🕳️ Honeypot
-                if (!empty($_POST['website'])) return;
+            // 🕳️ Honeypot
+            if (!empty($_POST['website'])) return;
 
-                // 🔐 Nonce
-                if (!isset($_POST['contacto_nonce']) ||
-                    !wp_verify_nonce($_POST['contacto_nonce'], 'contacto_form')) {
-                    echo '<div class="alert alert-danger">Error de seguridad</div>';
-                    return;
-                }
-
-                // Sanitizar
-                $nombre = sanitize_text_field($_POST['nombre']);
-                $email = sanitize_email($_POST['email']);
-                $mensaje = sanitize_textarea_field($_POST['mensaje']);
-
-                // Enviar correo
-                $to = get_option('admin_email');
-                $subject = "Nuevo mensaje desde el sitio";
-
-                $body = "Nombre: $nombre \n";
-                $body .= "Email: $email \n\n";
-                $body .= "Mensaje:\n$mensaje";
-
-                if (wp_mail($to, $subject, $body)) {
-                    echo '<div class="alert alert-success">Mensaje enviado correctamente</div>';
-                } else {
-                    echo '<div class="alert alert-danger">Error al enviar</div>';
-                }
+            // 🔐 Nonce
+            if (!isset($_POST['contacto_nonce']) ||
+                !wp_verify_nonce($_POST['contacto_nonce'], 'contacto_form')) {
+                echo '<div class="alert alert-danger">Error de seguridad</div>';
+                return;
             }
-            ?>
+
+            // Sanitizar
+            $nombre = sanitize_text_field($_POST['nombre']);
+            $email = sanitize_email($_POST['email']);
+            $mensaje = sanitize_textarea_field($_POST['mensaje']);
+
+            // ✅ Validar email
+            if (!is_email($email)) {
+                echo '<div class="alert alert-danger">Correo inválido</div>';
+                return;
+            }
+
+            // 📧 DESTINO (TU CORREO)
+            $to = 'catedraconfianza@gmail.com';
+
+            $subject = "Nuevo mensaje desde el sitio Filosofía de las emociones";
+
+            $body = "Nombre: $nombre \n";
+            $body .= "Email: $email \n\n";
+            $body .= "Mensaje:\n$mensaje";
+
+            // 📨 HEADERS (IMPORTANTE)
+            $headers = array(
+                'Content-Type: text/plain; charset=UTF-8',
+                'From: '.$nombre.' <'.$email.'>',
+                'Reply-To: '.$email
+            );
+
+            // 🚀 Enviar correo
+            if (wp_mail($to, $subject, $body, $headers)) {
+                echo '<div class="alert alert-success">Mensaje enviado correctamente</div>';
+            } else {
+                echo '<div class="alert alert-danger">Error al enviar</div>';
+            }
+        }
+        ?>
 
             <form method="post" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>">
 

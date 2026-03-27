@@ -333,6 +333,10 @@ iframe {
     color: var(--color-negro);
         text-decoration: none;
 }
+.libros .card-body {
+    max-height: 600px;
+    overflow-y: auto;
+}
 
 /* Contacto */
 .contacto form{

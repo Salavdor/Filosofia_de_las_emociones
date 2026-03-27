@@ -25,16 +25,6 @@ get_header();
                 </div>
                 <div class="card">
                     <a class="col-12">
-                      <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/La_confianza_cartel.jpg" class="img-fluid" alt="...">
-                    </a>
-                </div>
-                <div class="card">
-                    <a class="col-12">
-                      <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/La_confianza_programa.jpg" class="img-fluid" alt="...">
-                    </a>
-                </div>
-                <div class="card">
-                    <a class="col-12">
                       <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/AlaideAffidamento.jpg" class="img-fluid" alt="...">
                     </a>
                 </div>
@@ -96,10 +86,10 @@ get_header();
           </div>
           <div class="card">
               <a class="col-12">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/" class="img-fluid" alt="...">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/actividades/seminarios/La_confianza_programa.jpg" class="img-fluid" alt="...">
               </a>
           </div>
-          <div class="card">
+          <!-- <div class="card">
             <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P9R8Bkzf_XA?si=DITBAm1pyqCnPFGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -107,39 +97,7 @@ get_header();
                 content.
               </p>
             </div>
-          </div>
-          <div class="card">
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P9R8Bkzf_XA?si=DITBAm1pyqCnPFGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            </div>
-          </div>
-          <div class="card">
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P9R8Bkzf_XA?si=DITBAm1pyqCnPFGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            </div>
-          </div>
-          <div class="card">
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P9R8Bkzf_XA?si=DITBAm1pyqCnPFGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            </div>
-          </div>
-          <div class="card">
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P9R8Bkzf_XA?si=DITBAm1pyqCnPFGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            </div>
-          </div>
+          </div> -->
         </div>
         <div class="row conversatorios-arrows py-3 d-flex justify-content-center"></div>
       </div>
