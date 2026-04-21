@@ -193,7 +193,7 @@ get_header();
                         </div>
                         <div class="col-9 col-lg-10 d-flex align-items-end">
                             <div class="card-body">
-                                <h5 class="card-title">Lucero Rodríguez Alaide</h5>
+                                <h5 class="card-title">Alaide Lucero Rodríguez</h5>
                                 <!-- <p>
                                   Doctor en filosofía por la Universidad Nacional Autónoma de México (UNAM)
                                 </p> -->
