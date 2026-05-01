@@ -10,14 +10,14 @@ get_header();
          <div class="carousel-inner">
             <div class="carousel-item active">
              <div class="row">
-               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner_cartografias_E.jpg">
-               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner_cartografias_R.jpg">
+               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner1.jpg">
+               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner1r.jpg">
              </div>
            </div>
            <div class="carousel-item">
              <div class="row">
-               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner2.jpg">
-               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner2r.jpg">
+               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner_cartografias_E.jpg">
+               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner_cartografias_R.jpg">
              </div>
            </div>
            <div class="carousel-item">
