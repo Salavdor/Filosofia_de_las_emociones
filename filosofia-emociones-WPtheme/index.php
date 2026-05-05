@@ -20,6 +20,12 @@ get_header();
                <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner_cartografias_R.jpg">
              </div>
            </div>
+          <div class="carousel-item">
+             <div class="row">
+               <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner3_reflexiones confianza_E.jpg">
+               <img class="img-fluid d-lg-none" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/responsivo/banner3_reflexiones confianza_R.jpg">
+             </div>
+           </div>
            <div class="carousel-item">
              <div class="row">
                <img class="img-fluid d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/src/img/Banner/escritorio/banner5.jpg">
